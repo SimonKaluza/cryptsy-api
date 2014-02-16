@@ -1,4 +1,5 @@
-# cryptsy-api -- Forked from Forked from Brian Water's  cryptsy-api at https://github.com/abwaters/cryptsy-api to include Maven support
+# cryptsy-api
+Forked from Forked from Brian Water's cryptsy-api at https://github.com/abwaters/cryptsy-api to include Maven support
 
 Small fast (and complete) Java API for the Cryptsy crypto-currency exchange with minimal dependencies.  The only external library needed to use this API is the [Google Gson Library](https://code.google.com/p/google-gson/).
 
