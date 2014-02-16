@@ -1,4 +1,4 @@
-# cryptsy-api
+# cryptsy-api -- Forked from Forked from Brian Water's  cryptsy-api at https://github.com/abwaters/cryptsy-api to include Maven support
 
 Small fast (and complete) Java API for the Cryptsy crypto-currency exchange with minimal dependencies.  The only external library needed to use this API is the [Google Gson Library](https://code.google.com/p/google-gson/).
 
@@ -17,7 +17,7 @@ cryptsy = new Cryptsy();
 cryptsy.setAuthKeys("<api_key>", "<api_secret>");
 ```
 
-After this, using the API is as simple as calling the appropriate method off of your `cryptsy` object.  It is useful to look at the Cryptsy_Test.java source code since the unit tests in this file contain sample code for all of the APIs.  I'll be adding a complete javadoc in the near future.
+After this, using the API is as simple as calling the appropriate method off of your `cryptsy` object.  It is useful to look at the com.abwaters.cryptsy.Cryptsy_Test.java source code since the unit tests in this file contain sample code for all of the APIs.  I'll be adding a complete javadoc in the near future.
 
 ## Examples
 
